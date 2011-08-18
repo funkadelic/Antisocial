@@ -1,0 +1,27 @@
+{
+	"name": "Antisocial",
+	"version": "0.1",
+	"description": "Blocks social plugins from loading",
+	"icons": {
+		"128": "128.png",
+		"48": "48.png",
+		"16": "16.png"
+	},
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "antisocial.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "exclude_globs": [ 
+      	"*addthis.com*",
+      	"*facebook.com*",
+      	"*google.com*", 
+      	"*linkedin.com*",
+      	"*meebo.com*",
+      	"*sharethis.com*",
+      	"*stumbleupon.com*",
+      	"*twitter.com*", 
+      	"*wibiya.com*"
+      	],
+      "run_at": "document_start"
+   } ]
+}
