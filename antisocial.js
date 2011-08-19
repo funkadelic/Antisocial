@@ -23,8 +23,6 @@ document.addEventListener("beforeload", function(event) {
 	var result =  re.exec(event.url);
 
 	if (result && (blocklist.indexOf(result[1]) > -1)) {
-		console.warn("[BLOCK] "  + result[1]);
-		//console.warn("[BLOCK] "  + event.url);
 		event.preventDefault();
 	}
 }, true);
