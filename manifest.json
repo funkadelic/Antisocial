@@ -13,6 +13,7 @@
 		"matches": ["http://*/*", "https://*/*"],
 		"exclude_globs": [
 			"*addthis.com*", 
+			"*digg.com*", 
 			"*facebook.com*", 
 			"*google.com*", 
 			"*linkedin.com*", 

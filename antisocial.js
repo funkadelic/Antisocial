@@ -15,7 +15,8 @@ var blocklist = [
 	"cdn.wibiya.com",
 	"w.sharethis.com",
 	"tweetmeme.com",
-	"www.reddit.com"
+	"www.reddit.com",
+	"widgets.digg.com"
 ]
 
 var re = /https?:\/\/([^\/]+)/i;
