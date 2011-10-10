@@ -20,7 +20,7 @@
 		"widgets.digg.com"
 	]
 	
-	var re = /https?:\/\/([^\/]+)/i;
+	var re = /(?:https?:)?\/\/([^\/]+)/i;
 	
 	document.addEventListener("beforeload", function(event) {
 		var result = re.exec(event.url);
