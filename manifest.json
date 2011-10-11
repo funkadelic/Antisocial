@@ -1,6 +1,6 @@
 {
 	"name": "Antisocial",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Blocks social plugins from loading",
 	"icons": {
 		"128": "128.png",
