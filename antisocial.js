@@ -17,7 +17,8 @@
 		"w.sharethis.com",
 		"tweetmeme.com",
 		"www.reddit.com",
-		"widgets.digg.com"
+		"widgets.digg.com",
+		"platform.tumblr.com"
 	]
 	
 	var re = /(?:https?:)?\/\/([^\/]+)/i;
