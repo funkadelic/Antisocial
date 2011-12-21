@@ -33,6 +33,9 @@
 					$("#as-disable").show();
 
 					chrome.extension.getBackgroundPage().Antisocial.enabled = 1;
+					setTimeout(function(){
+						window.close();
+					}, 100);
 				});
 				
 				$("#as-disable").mouseup(function(){
@@ -48,6 +51,9 @@
 					$("#as-enable").show();
 					
 					chrome.extension.getBackgroundPage().Antisocial.enabled = 0;
+					setTimeout(function(){
+						window.close();
+					}, 100);
 				});
    			});
 		</script>
