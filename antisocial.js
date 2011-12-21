@@ -9,6 +9,8 @@
 		"meebo.com",
 		"s.meebocdn.net",
 		"platform.twitter.com",
+		"cdn.api.twitter.com",
+		"api.twitter.com",
 		"widgets.twimg.com",
 		"s7.addthis.com",
 		"platform.linkedin.com",
