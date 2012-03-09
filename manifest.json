@@ -1,6 +1,6 @@
 {
 	"name": "Antisocial",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "Blocks social plugins from loading",
 	"icons": {
 		"128": "128.png",
@@ -18,7 +18,8 @@
 			"*google.com*", 
 			"*klout.com*", 
 			"*linkedin.com*", 
-			"*meebo.com*", 
+			"*meebo.com*",
+			"*pinterest.com", 
 			"*reddit.com*",
 			"*sharethis.com*", 
 			"*stumbleupon.com*", 

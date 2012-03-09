@@ -16,12 +16,14 @@
 			"s7.addthis.com",
 			"platform.linkedin.com",
 			"www.stumbleupon.com",
+			"platform.stumbleupon.com",
 			"cdn.wibiya.com",
 			"w.sharethis.com",
 			"tweetmeme.com",
 			"www.reddit.com",
 			"widgets.digg.com",
-			"platform.tumblr.com"
+			"platform.tumblr.com",
+			"assets.pinterest.com"
 		]
 
 		var re = /(?:https?:)?\/\/([^\/]+)/i;
