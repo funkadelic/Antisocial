@@ -23,7 +23,8 @@
 			"www.reddit.com",
 			"widgets.digg.com",
 			"platform.tumblr.com",
-			"assets.pinterest.com"
+			"assets.pinterest.com",
+			"userapi.com"
 		]
 
 		var re = /(?:https?:)?\/\/([^\/]+)/i;

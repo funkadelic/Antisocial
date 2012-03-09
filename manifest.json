@@ -1,6 +1,6 @@
 {
 	"name": "Antisocial",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "Blocks social plugins from loading",
 	"icons": {
 		"128": "128.png",
@@ -25,7 +25,8 @@
 			"*stumbleupon.com*", 
 			"*tumblr.com*", 
 			"*twitter.com*", 
-			"*wibiya.com*"
+			"*wibiya.com*",
+			"*vk.com*"
 		],
 		"run_at": "document_start"
 	}]
