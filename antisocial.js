@@ -24,7 +24,9 @@
 			"widgets.digg.com",
 			"platform.tumblr.com",
 			"assets.pinterest.com",
-			"userapi.com"
+			"userapi.com",
+			"i.po.st",
+			"po.st"
 		]
 
 		var re = /(?:https?:)?\/\/([^\/]+)/i;
